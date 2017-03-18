@@ -47,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public void onFailure(Call<ResultDataResponse> call, Throwable t) {
+                        /**
+                         * 用户2提交代码
+                         */
 
                     }
                 });
