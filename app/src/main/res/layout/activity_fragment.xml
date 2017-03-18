@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lwl.retrofit2.fragment.FragmentActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_fragment"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_chose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@android:color/darker_gray"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:gravity="center"
+            android:text="页面一"
+            android:textColor="@drawable/radiobutton_selector"
+            android:id="@+id/rb1" />
+
+        <RadioButton
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:gravity="center"
+            android:id="@+id/rb2"
+            android:textColor="@drawable/radiobutton_selector"
+            android:text="页面二"/>
+
+        <RadioButton
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="页面三"
+            android:gravity="center"
+            android:textColor="@drawable/radiobutton_selector"
+            android:id="@+id/rb3"  />
+    </RadioGroup>
+</LinearLayout>
